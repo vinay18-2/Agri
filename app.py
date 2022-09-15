@@ -22,7 +22,7 @@ def predict():
     
 	fin=pd.DataFrame(int_features,columns=c)
 	result=model.predict(fin)
-	return render_template("main.html",prediction_text=" The recommende crop is : {}".format(result))
+	return render_template("main.html",prediction_text=" The Recommende Crop is : {}".format(result))
 	
 
 
